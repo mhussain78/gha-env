@@ -23,3 +23,6 @@ test('getting events', async ({ request }) => {
   expect(resData).toHaveProperty('events');
   expect(resData.events.length).toBeGreaterThan(0);
 });
+
+
+
