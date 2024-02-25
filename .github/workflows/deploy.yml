@@ -30,7 +30,7 @@ jobs:
       - name: Run tests
         run: npm test
       - name: Output information
-        run: echo "USER_NAME"
+        run: echo "$USER_NAME"
   deploy:
     needs: test
     runs-on: ubuntu-latest
